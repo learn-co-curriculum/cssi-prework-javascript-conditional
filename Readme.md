@@ -95,12 +95,8 @@ Below is a list of all JavaScript comparison operators and what they do
 
 <img src="https://raw.githubusercontent.com/learn-co-curriculum/cssi-2.5-conditional-statements/master/js-boolean-operator-table.png">
 
-Conditional statements can have even more complexity if logical operators are included. These let us combine conditions. Is x greater than 4 AND less than 7?
+Conditional statements can have even more complexity if logical operators are included. These let us combine conditions. 
 
 Here is a list of all the Logical Operators and what they do:
 
 <img src="https://raw.githubusercontent.com/learn-co-curriculum/cssi-2.5-conditional-statements/master/js-logical-operators.png">
-
-
-
-Be creative with the messages you write (and let's find some Skee-Ball in the office later!).
