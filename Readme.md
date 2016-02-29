@@ -8,8 +8,13 @@ JavaScript has three types of conditional statements:
 * **if** executes a block of code if a condition evaluates to true
 * **else** executes a block of code if that condition evaluates to false
 * **else if** allows for an additional condition to be evaluated
+* 
+## Objectives
+* The If Statement
+* The Else/If Statement
+* Comparison Operators
 
-## The if statement
+## The If Statement
 
 With the if statement, a block of code will only run if the condition is true.
 
@@ -56,7 +61,7 @@ if (student == "Nelson") {
 
 If Bart sees Millhouse, the condition is false, so the first block is skipped. The else statement is executed and Bart skates on.
 
-## The else if addition
+## The Else/If Addition
 If/else statements can be made more complex and more specific by adding an additional conditional statement with `else if`. You can chain multiple `else if` statements together if needed. Your interpreter will check the conditions from top to bottom. As soon as one condition is true, it will execute that block and then skip checking any subsequent conditions.
 
 ```
