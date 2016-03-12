@@ -8,11 +8,11 @@ JavaScript has three types of conditional statements:
 * **if** executes a block of code if a condition evaluates to true
 * **else** executes a block of code if that condition evaluates to false
 * **else if** allows for an additional condition to be evaluated
-* 
+
 ## Objectives
-* The If Statement
-* The Else/If Statement
-* Comparison Operators
+* Use and describe the If Statement
+* Use and describe the Else/If Statement
+* Use and describe comparison Operators
 
 ## The If Statement
 
