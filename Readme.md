@@ -37,8 +37,10 @@ var name = "Lisa";
 if (name == "Homer"){
   snack = "pink donut";
 }
+snack
+>>"clementine"
 ```
-In the above code, the snack variable still holds the value "clementine" because the condition that name was equal to Homer was not true. Therefore, the block inside the curly brackets is not executed and the snack variable does not get reassigned.
+In the above code, the snack variable still holds the value "clementine" because the condition that `name` was equal to Homer was not true (the `==` checks for equality, by seeing if the left side of the `==` is equal to the right side. You'll learn more about this below). Because `name == "Homer"` is false, the block inside the curly brackets is not executed and the snack variable does not get reassigned.
 
 ## The if/else statement
 The if/else statement is constructed in a similar way to the if statement, except that there is a new block that is automatically executed when the condition is false.
@@ -76,6 +78,9 @@ if (condition){
 For example, if it's 11 am (hours=11), the code below tells us that Homer is at his job at the power plant. Each condition is checked from top to bottom until one evaluates to true. As soon as that happens, the block under that condition is executed and the rest of the code is ignored.
 
 ```
+var location;
+hours = 11;
+
 if (hours>=19) {
     location = "couch";
 } else if (hours>=17) {
@@ -85,7 +90,8 @@ if (hours>=19) {
 } else {
    location = "bedroom"
 }
-
+location
+>> "Springfield Nuclear Power Plant"
 ```
 
 ## Comparison Operators
