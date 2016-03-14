@@ -54,14 +54,18 @@ if (condition){
 
 As an example, let's think about how Bart avoids Nelson but otherwise doesn't care too much about Springfield's other residents.
 ```
+var student = "Millhouse"
+
 if (student == "Nelson") {
     action = "hide";
 } else {
     action = "skate";
 }
+action
+>> "skate"
 ```
 
-If Bart sees Millhouse, the condition is false, so the first block is skipped. The else statement is executed and Bart skates on.
+If Bart sees Millhouse, the condition is false, so the first block is skipped. The else statement is executed and Bart skates on. Copy this code into your browser's javascript console and see if you can get the various codeblocks to run given different students.
 
 ## The Else/If Addition
 If/else statements can be made more complex and more specific by adding an additional conditional statement with `else if`. You can chain multiple `else if` statements together if needed. Your interpreter will check the conditions from top to bottom. As soon as one condition is true, it will execute that block and then skip checking any subsequent conditions.
