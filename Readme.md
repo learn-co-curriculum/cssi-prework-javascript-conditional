@@ -1,6 +1,13 @@
 
 #Conditional Statements
 
+## Objectives
+* Use and describe the If Statement
+* Use and describe the Else/If Statement
+* Use and describe comparison Operators
+
+## Overview
+
 A conditional statement is a set of commands that executes based on a set of conditions. We use conditionals in our every day life: "If I don't have time to make an espresso in the microkitchen (conditional), then I'll be grouchy for the entire morning. (code)"
 
 JavaScript has three types of conditional statements:
@@ -8,11 +15,6 @@ JavaScript has three types of conditional statements:
 * **if** executes a block of code if a condition evaluates to true
 * **else** executes a block of code if that condition evaluates to false
 * **else if** allows for an additional condition to be evaluated
-
-## Objectives
-* Use and describe the If Statement
-* Use and describe the Else/If Statement
-* Use and describe comparison Operators
 
 ## The If Statement
 
